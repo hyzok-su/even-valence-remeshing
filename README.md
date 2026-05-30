@@ -23,7 +23,7 @@ The weaver generation process includes:
 
 ![UUV Mapping](./docs/SA.gif) 
 
-In this gif, red elements are incorrectly interlaced (2 end points are both positioned at the most outside/inside)
+In this gif, red elements are incorrectly interlaced (2 end points are both positioned at the top/bottom)
 
 ## Dependencies
 
