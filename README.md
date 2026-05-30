@@ -18,7 +18,7 @@ https://hyzok-su.github.io/even-valence-remeshing/EVR.pdf
 
 ## Dependencies
 
-This project uses:
+The isotropic remeshing section uses:
 
 - Plankton (C# half-edge mesh library)
   https://github.com/meshmash/Plankton
