@@ -4,7 +4,7 @@ the working paper of EVR:
 
 https://hyzok-su.github.io/even-valence-remeshing/EVR.pdf
 
-## Example Weaver Structure using EVR and Simulated Annealing
+## Weaver Structure using EVR and Simulated Annealing (rendered in VRay)
 
 ![UUV Mapping](./docs/w1.png) 
 ![UUV Mapping](./docs/w2.png) 
