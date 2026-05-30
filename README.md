@@ -15,6 +15,12 @@ https://hyzok-su.github.io/even-valence-remeshing/EVR.pdf
 
 ## Simulated Annealing for Interlacing Error Reduction
 
+The weaver generation process includes:
+- Pair IN points and OUT points in 1-ring neighbors of every CENTER
+- Connect IN--CENTER--OUT
+- MOVE CENTER points randomly along the normal direction
+- Sort the orders of CENTER points by simulated annealing
+
 ![UUV Mapping](./docs/SA.gif) 
 
 ## Dependencies
