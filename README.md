@@ -2,7 +2,7 @@
 
 The c# implementation is based on my working paper of EVR. 
 
-For more details about the used algorithms, see my paper:
+For more details about the used algorithms, see:
 [EVR PDF](https://hyzok-su.github.io/even-valence-remeshing/EVR.pdf)
 
 ## EVR Application Example: Weaver Structure using EVR and Simulated Annealing 
