@@ -6,3 +6,4 @@ https://hyzok-su.github.io/even-valence-remeshing/EVR.pdf
 
 ## Example Weaver Structure using EVR and Simulated Annealing
 
+![UUV Mapping](./docs/w1.jpg) 
