@@ -179,42 +179,6 @@ public class Script_Instance : GH_ScriptInstance
             {
               P.Halfedges.FlipEdge(2 * i);
             }
-            /*
-            //Flip edges based on angle
-            if (!P.Halfedges[2 * i].IsUnused
-              && (P.Halfedges[2 * i].AdjacentFace != -1)
-              && (P.Halfedges[2 * i + 1].AdjacentFace != -1)
-              )
-            {
-              int Vert1 = P.Halfedges[2 * i].StartVertex;
-              int Vert2 = P.Halfedges[2 * i + 1].StartVertex;
-              int Vert3 = P.Halfedges[P.Halfedges[P.Halfedges[2 * i].NextHalfedge].NextHalfedge].StartVertex;
-              int Vert4 = P.Halfedges[P.Halfedges[P.Halfedges[2 * i + 1].NextHalfedge].NextHalfedge].StartVertex;
-
-              Point3d P1 = P.Vertices[Vert1].ToPoint3d();
-              Point3d P2 = P.Vertices[Vert2].ToPoint3d();
-              Point3d P3 = P.Vertices[Vert3].ToPoint3d();
-              Point3d P4 = P.Vertices[Vert4].ToPoint3d();
-
-              double A1 = Vector3d.VectorAngle(new Vector3d(P3 - P1), new Vector3d(P4 - P1))
-                + Vector3d.VectorAngle(new Vector3d(P4 - P2), new Vector3d(P3 - P2));
-
-              double A2 = Vector3d.VectorAngle(new Vector3d(P1 - P4), new Vector3d(P2 - P4))
-                + Vector3d.VectorAngle(new Vector3d(P2 - P3), new Vector3d(P1 - P3));
-
-              int Valence1 = P.Vertices.GetValence(Vert1);
-              int Valence2 = P.Vertices.GetValence(Vert2);
-              int Valence3 = P.Vertices.GetValence(Vert3);
-              int Valence4 = P.Vertices.GetValence(Vert4);
-
-              int CurrentEvenError = Valence1 % 2 + Valence2 % 2 + Valence3 % 2 + Valence4 % 2;
-              int FlippedEvenError = (Valence1 - 1) % 2 + (Valence2 - 1) % 2 + (Valence3 + 1) % 2 + (Valence4 + 1) % 2;
-
-              if (A2 > A1 && CurrentEvenError >= FlippedEvenError)
-              {
-                P.Halfedges.FlipEdge(2 * i);
-              }
-            }*/
           }
         }
       }
