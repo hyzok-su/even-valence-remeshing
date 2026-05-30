@@ -15,3 +15,16 @@ https://hyzok-su.github.io/even-valence-remeshing/EVR.pdf
 ## Simulated Annealing for Interlacing Error Reduction
 
 ![UUV Mapping](./docs/SA.gif) 
+
+## Dependencies
+
+This project uses:
+
+- Plankton (C# half-edge mesh library)
+  https://github.com/meshmash/Plankton
+- Mesh Machine by Daniel Piker
+  https://github.com/Dan-Piker/MeshMachine
+
+## Acknowledgements
+
+Special thanks to the developers for providing the libraries used in this project.
