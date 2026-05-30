@@ -10,3 +10,7 @@ https://hyzok-su.github.io/even-valence-remeshing/EVR.pdf
 ![UUV Mapping](./docs/w2.png) 
 ![UUV Mapping](./docs/w3.png) 
 ![UUV Mapping](./docs/w4.png) 
+
+## Simulated Annealing for interlacing error reduction
+
+![UUV Mapping](./docs/SA.gif) 
