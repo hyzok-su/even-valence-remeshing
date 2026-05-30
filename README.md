@@ -27,4 +27,4 @@ This project uses:
 
 ## Acknowledgements
 
-Special thanks to the developers for providing the libraries used in this project.
+Special thanks to the developers for providing the libraries and codes used in this project.
