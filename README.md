@@ -1,6 +1,6 @@
 # Even Valence Remeshing
 
-the working paper of EVR:
+The c# implementation is based on my working paper of EVR:
 
 https://hyzok-su.github.io/even-valence-remeshing/EVR.pdf
 
